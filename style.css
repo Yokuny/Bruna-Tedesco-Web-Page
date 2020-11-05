@@ -33,13 +33,6 @@ body, html{
         background-position: 0 50%;
     }
 }
-section{
-    position: relative;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -55%);
-    width: 300px;
-}
 .logo-art{
     position: relative;
     top: 5%;
@@ -67,6 +60,13 @@ section{
         opacity: 0;
         transform: translateY(100px);
     }
+}
+section{
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    width: 300px;
 }
 section .text-informations{
     display:flex;
@@ -100,9 +100,9 @@ section .social-icons{
 section .social-icons a img{
     height: 40px;
     padding: 5px;
+    border-radius: 10px;
     transition: linear .3s;
 }
 section .social-icons a img:hover{
-    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.1);
 }
