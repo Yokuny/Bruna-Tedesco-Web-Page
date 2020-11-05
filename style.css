@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 @font-face {
+    font-family: 'caviar_dreams';
+    src: url('CaviarDreams.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'praktys';
     src: url('praktys.woff2') format('woff2'),
          url('praktys.woff') format('woff');
-    font-family: 'caviar_dreams';
-    src: url('CaviarDreams.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
